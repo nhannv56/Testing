@@ -13,7 +13,7 @@ import org.junit.Test;
  */
 public class test {
 	@Test
-	public void Suybien1() {
+	public void suyBien1() {
 		ptb2 pt = new ptb2();
 		dapAn da = new dapAn(Global.flag_SuyBien, -5 / 4, -5 / 4);
 		dapAn result = pt.giaiPT(0, 4, 5);
@@ -22,7 +22,7 @@ public class test {
 
 	}
 	@Test
-	public void Suybien2() {
+	public void suyBien2() {
 		ptb2 pt = new ptb2();
 		dapAn da = new dapAn(Global.flag_SuyBien, 0, 0);
 		dapAn result = pt.giaiPT(0, 0, 4);

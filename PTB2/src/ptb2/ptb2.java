@@ -34,6 +34,7 @@ public class ptb2 {
 					result.flag = Global.flag_2Nghiem;
 				}
 			}
+			
 		}
 		return result;
 	}
